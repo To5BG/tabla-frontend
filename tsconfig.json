@@ -8,8 +8,11 @@
     "esModuleInterop": true,
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
-    "types": ["vite/client"],
+    "types": ["vite/client", "jest"],
+    "outDir": "./dist",
     "noEmit": true,
-    "isolatedModules": true
+    "removeComments": true,
+    "isolatedModules": true,
+    "incremental": true,
   }
 }
